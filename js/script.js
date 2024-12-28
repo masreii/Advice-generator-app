@@ -1,3 +1,5 @@
+// const pattern = document.querySelector(".pattern")
+
 const no_Advice = document.querySelector(".no-advice")
 const quote = document.querySelector(".quote")
 const spinner = document.querySelector(".spinner")
@@ -11,6 +13,7 @@ async function getAPI (){
     spinner.style.display = "block"
     no_Advice.style.display = "none"
     quote.style.display = "none"
+    
   }
   
   
